@@ -9,43 +9,52 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+        rel="stylesheet" />
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
 </head>
 
 <body>
-    <header>
-        <a href="/">
-            <img src="./assets/images/logo.svg" alt="Dev em Dobro">
-            <nav>
+    <header class="cabecalho">
+        <div class="header-conteudo">
+            <div class="header-esquerda">
+
+                <button class="menu-hamburguer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <a class="logo" href="/">
+                    <img src="./assets/images/logo.svg" alt="Dev em Dobro">
+                </a>
+            </div>
+            <nav class="menu-principal">
                 <ul>
                     <li>
-                        <a href="#Home">Home
-                        </a>
+                        <a href="#Home">Home</a>
                     </li>
                     <li>
-                        <a href="#sobre">Sobre
-                        </a>
+                        <a href="#sobre">Sobre</a>
                     </li>
                     <li>
-                        <a href="#Produtos">Produtos
-                        </a>
+                        <a href="#Produtos">Produtos</a>
                     </li>
                     <li>
-                        <a href="#Faq">Faq
-                        </a>
+                        <a href="#Faq">Faq</a>
                     </li>
                     <li>
-                        <a href="#Contato">Contato
-                        </a>
+                        <a href="#Contato">Contato</a>
+                    </li>
                 </ul>
             </nav>
-            <button>
+            <button class="botao-carrinho" data-micromodal-trigger="modal-1">
                 <img src="./assets/images/icone_carrinho.svg" alt="carrinho de compras">
             </button>
-        </a>
+            </a>
+        </div>
     </header>
     <main>
         <section>
